@@ -1,7 +1,7 @@
 /**
  * 弹框输入组件
  */
-import BaseCom from '../lib/com/baseCom.js'
+import BaseCom from '../../lib/com/baseCom.js'
 class InputPop extends BaseCom {
 	// 便于扩展
 	constructor(options = {}) {
