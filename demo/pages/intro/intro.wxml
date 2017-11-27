@@ -1,0 +1,68 @@
+<view class="intro">
+  <view class="flex flex-h-hcenter">
+    <view class="logo">WeChat Pay Checkout</view>
+  </view>
+  <view class="main">
+    <view class="title">中小商戶"流動支付"首選</view>
+    <view class="pic"><image src="/img/intro/pic.png"></image></view>
+    <view class="date flex flex-h-hcenter">
+      <view class="item">2</view><view class="item">0</view><view class="item">1</view><view class="item">7</view><view class="text">年</view><view class="item">1</view><view class="item">2</view><view class="text">月</view>
+    </view>
+    <view class="notice">重磅推出，敬請期待！</view>
+    <view class="advantage">
+      <view class="tit"><image src="/img/intro/subtitle.png" mode="aspectFit"></image></view>
+      <view class="inner">
+        <view class="ad-item flex flex-h-vcenter">
+          <view class="word flex-1">
+            <text class="em">零成本</text><text>快速接入</text>
+            <view class="des">無需購買POS機</view><view class="des">5分鐘登記開戶</view>
+          </view>
+          <view class="pic pic-right"><image src="/img/intro/advantage4.png"></image></view>
+        </view>
+        <view class="ad-item flex flex-h-vcenter">
+          <view class="pic flex-1"><image src="/img/intro/advantage3.png"></image></view>
+          <view class="word">
+            <text class="em">低</text><text>手續費</text>
+            <view class="des">試用期免手續費</view><view class="des">低營運成本</view>
+          </view>
+        </view>
+        <view class="ad-item flex flex-h-vcenter">
+          <view class="word flex-1">
+            <text>資金</text><text class="em">安全到賬</text>
+            <view class="des">全面的風險管理體系</view><view class="des">為商戶資金保駕護航</view>
+          </view>
+          <view class="pic pic-right pic3"><image src="/img/intro/advantage2.png"></image></view>
+        </view>
+        <view class="ad-item flex flex-h-vcenter">
+          <view class="pic flex-1 pic4"><image src="/img/intro/advantage1.png"></image></view>
+          <view class="word">
+            <text>管理生意</text><text class="em">更便捷</text>
+            <view class="des">即時收款提醒</view><view class="des">隨時隨地手機查賬</view>
+          </view>
+        </view>
+      </view>
+    </view>
+  </view>
+  <view class="btn">
+    <view class="btn-layer">
+      <view class="btn-inner" bindtap="showLayer">
+        <image src="/img/intro/text_btn.png"></image>
+      </view>
+    </view>
+  </view>
+</view>
+<view class="layer" wx:if="{{showLayer}}">
+  <view class="arrow"><image src="/img/intro/arrow.png"></image></view>
+  <view class="des">
+    <view class="line">
+      點擊“ <text class="yellow">...</text> ”，選擇“ <text class="yellow">轉發</text> ”
+    </view>
+    <view class="line">
+      即可分享給你的好友
+    </view>
+    <view class="btn-wrap">
+      <view class="btn-inner" bindtap="hideLayer">我知道了</view>
+    </view>
+    
+  </view>
+</view>

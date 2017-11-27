@@ -1,0 +1,12 @@
+{
+  "pages": [
+   "pages/intro/intro"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#f6f6fb",
+    "navigationBarTitleText": "WeChat Pay Checkout",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#f6f6fb"
+  }
+}

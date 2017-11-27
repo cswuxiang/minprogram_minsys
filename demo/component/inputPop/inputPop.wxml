@@ -1,0 +1,15 @@
+<template name="inputPop">
+  <view class="input-pop" wx:if="{{visible}}">
+    <view class="pop-main">
+      <view class="pop-tit">{{title}}</view>
+      <view class="pop-input">
+        <input class="input" value="{{value}}" bindinput="{{bindinput}}"  maxlength="{{maxlength}}"  cursor-spacing="70" placeholder-class="ui-placeholder" placeholder="{{inputHolder}}" />
+        <view class='ico-delete-btn' bindtap="{{bindDel}}"></view>
+      </view>
+      <view class="pop-btn flex">
+        <button class='btn flex-1' bindtap="{{bindCancel}}">取消</button>
+        <button class='btn flex-1' bindtap="{{bindOk}}">确定</button>
+      </view>
+    </view>
+  </view>
+</template>
