@@ -20,7 +20,15 @@
 
 
 >test
+
 该目录为案例
+
+
+>参考文章   
+ (1)[组件相关](http://http://www.wxapp-union.com/thread-4403-1-1.html)
+ (2)[ 表单验证](https://github.com/skyvow/wx-extend/blob/master/docs/components/validate.md)
+
+
 
 
 
